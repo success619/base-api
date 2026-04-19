@@ -12,12 +12,10 @@ const app = express();
 const corsOptions = {
   credentials: true,
   origin: [
-    "https://base4-zeta.vercel.app",
-    "http://base4-zeta.vercel.app",
     "http://localhost:3000",
     "https://localhost:3000",
-    "https://base-lake.vercel.app",
-    "http://base-lake.vercel.app",
+    "https://base-pro.vercel.app/",
+    "https://base-pro.vercel.app"
   ],
 };
 app.use(cors(corsOptions));
